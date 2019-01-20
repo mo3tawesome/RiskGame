@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+    <TextView
+        android:layout_width="417dp"
+        android:layout_height="98dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/game_mode"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="65sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <Button
+        android:id="@+id/playing"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="316dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="280dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/playing_mode"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/simulation"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="316dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/simulation_mode"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
